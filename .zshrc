@@ -112,7 +112,7 @@ export NVM_DIR="$HOME/.nvm"
 
 # Python
 export WORKON_HOME=~/Envs
-export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
+export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 source /usr/local/bin/virtualenvwrapper.sh
 
 # esp32
