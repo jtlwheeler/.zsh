@@ -122,3 +122,6 @@ source /usr/local/bin/virtualenvwrapper.sh
 
 # Fix because the plugin call above doesn't work.
 source ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+bindkey "^[^[[C" forward-word
+bindkey "^[^[[D" backward-word
